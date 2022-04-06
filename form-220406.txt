@@ -92,6 +92,16 @@
                             </div>
                         </li>
 
+<!--                        <li v-if="info.sfcyglq==1">-->
+<!--                            <div name="gllx" class="radio"><span>观察场所<i class="icon iconfont icon-shuoming"></i><em></em></span>-->
+<!--                                <div>-->
+<!--                                    <div @click="info.gllx='学校家属院'"><span :class="{active: info.gllx=='学校家属院'}"><i></i></span> <span>学校家属院</span></div>-->
+<!--                                    <div @click="info.gllx='学校集中隔离点'"><span :class="{active: info.gllx=='学校集中隔离点'}"><i></i></span> <span>学校集中隔离点</span></div>-->
+<!--                                    <div @click="info.gllx='杭州校外居住地'"><span :class="{active: info.gllx=='杭州校外居住地'}"><i></i></span> <span>杭州校外居住地</span></div>-->
+<!--                                    <div @click="info.gllx='杭外地区集中隔离点'"><span :class="{active: info.gllx=='杭外地区集中隔离点'}"><i></i></span> <span>杭外地区集中隔离点</span></div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
                         <li v-if="info.sfcyglq==1">
                             <div class="text">
                                 <span>观察开始时间 The start time<i class="icon iconfont icon-shuoming"></i></span>
