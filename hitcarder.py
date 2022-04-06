@@ -132,6 +132,7 @@ class HitCarder(object):
         new_info['area'] = old_info['area']
         new_info['city'] = old_info['city']
         new_info['ismoved'] = 0
+        new_info['campus'] = old_info['campus']
         new_info['sfzx'] = old_info['sfzx'] # 在校
         new_info['sfymqjczrj'] = old_info['sfymqjczrj'] # 入境
         new_info['sfqrxxss'] = 1 # 属实
